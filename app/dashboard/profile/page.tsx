@@ -50,7 +50,7 @@ export default function ProfilePage() {
                 </Button>
               </div>
               <div>
-                <h2 className="text-2xl font-bold">John Smith</h2>
+                <h2 className="text-2xl font-bold">Hillol Das Pias</h2>
                 <p className="text-muted-foreground">Premium Member since March 2024</p>
               </div>
             </div>
@@ -74,19 +74,19 @@ export default function ProfilePage() {
                 <div className="grid gap-4 md:grid-cols-2">
                   <div className="space-y-2">
                     <Label htmlFor="fullName">Full Name</Label>
-                    <Input id="fullName" defaultValue="John Smith" />
+                    <Input id="fullName" defaultValue="Hillol Das Pias" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="email">Email</Label>
-                    <Input id="email" type="email" defaultValue="john.smith@example.com" />
+                    <Input id="email" type="email" defaultValue="hillol4958@gmail.com" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="phone">Phone</Label>
-                    <Input id="phone" type="tel" defaultValue="+1 (555) 123-4567" />
+                    <Input id="phone" type="tel" defaultValue="+8801738206419" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="location">Location</Label>
-                    <Input id="location" defaultValue="New York, USA" />
+                    <Input id="location" defaultValue="Rajshahi, Bangladesh" />
                   </div>
                 </div>
 

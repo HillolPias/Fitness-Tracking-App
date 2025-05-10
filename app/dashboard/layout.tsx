@@ -134,7 +134,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
               </div>
               {isSidebarOpen && (
                 <div>
-                  <p className="text-sm font-medium">John Smith</p>
+                  <p className="text-sm font-medium">Hillol Das Pias</p>
                   <p className="text-xs text-muted-foreground">Premium Plan</p>
                 </div>
               )}

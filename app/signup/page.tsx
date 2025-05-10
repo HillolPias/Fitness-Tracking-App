@@ -57,7 +57,7 @@ export default function SignupPage() {
       email: "",
       password: "",
       fitnessGoal: "",
-      agreeTerms: false,
+      agreeTerms: true,
     },
   });
 

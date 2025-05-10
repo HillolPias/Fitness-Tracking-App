@@ -63,7 +63,7 @@ export default function NutritionPage() {
                   <Progress 
                     value={(nutrient.current / nutrient.target) * 100} 
                     className="h-2"
-                    indicatorclassName={`bg-[hsl(var(--${nutrient.color}))]`}
+                    // indicatorClassName={`bg-[hsl(var(--${nutrient.color}))]`}
                   />
                 </div>
               </CardContent>

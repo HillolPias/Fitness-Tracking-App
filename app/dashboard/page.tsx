@@ -76,7 +76,7 @@ export default function DashboardPage() {
       <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between mb-8">
         <div>
           <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1>
-          <p className="text-muted-foreground">Welcome back, John! Here's your fitness summary.</p>
+          <p className="text-muted-foreground">Welcome back, John! Here&apos;s your fitness summary.</p>
         </div>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
@@ -251,7 +251,7 @@ export default function DashboardPage() {
                     <Progress 
                       value={index === 0 ? 65 : index === 1 ? 45 : 70} 
                       className="h-2" 
-                      indicatorclassName={index === 0 ? "bg-[hsl(var(--chart-1))]" : index === 1 ? "bg-[hsl(var(--chart-2))]" : "bg-[hsl(var(--chart-3))]"}
+                      // indicatorclassName={index === 0 ? "bg-[hsl(var(--chart-1))]" : index === 1 ? "bg-[hsl(var(--chart-2))]" : "bg-[hsl(var(--chart-3))]"}
                     />
                   </div>
                 ))}
