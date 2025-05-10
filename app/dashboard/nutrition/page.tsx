@@ -63,7 +63,7 @@ export default function NutritionPage() {
                   <Progress 
                     value={(nutrient.current / nutrient.target) * 100} 
                     className="h-2"
-                    indicatorClassName={`bg-[hsl(var(--${nutrient.color}))]`}
+                    indicatorclassName={`bg-[hsl(var(--${nutrient.color}))]`}
                   />
                 </div>
               </CardContent>
@@ -74,7 +74,7 @@ export default function NutritionPage() {
 
       <Card>
         <CardHeader>
-          <CardTitle>Today's Meals</CardTitle>
+          <CardTitle>Today&apos;s Meals</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="space-y-6">
